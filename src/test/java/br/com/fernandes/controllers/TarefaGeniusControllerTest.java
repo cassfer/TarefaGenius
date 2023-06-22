@@ -19,7 +19,7 @@ public class TarefaGeniusControllerTest {
 	
 	@Test
 	public void testCheckHealth() throws Exception{
-		MvcResult result = mockMvc.perform(get("/health")).andReturn();
+		MvcResult result = mockMvc.perform(get("/tarefa/health")).andReturn();
 		
 		int status = result.getResponse().getStatus();
 		String content = result.getResponse().getContentAsString();

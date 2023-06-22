@@ -14,7 +14,7 @@
 	<name>TarefaGenius</name>
 	<description>API inteligente que simplifica o gerenciamento de tarefas.</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>1.8</java.version>
 	</properties>
 	
 	<dependencies>
